@@ -16,7 +16,12 @@ const Navbar = (props: NavbarProps) => {
 
             {/* RIGHT SIDE */}
             <div className={`${flexBetween} w-full `}>
-              <div className={`${flexBetween} gap-8 text-sm `}></div>
+              <div className={`${flexBetween} gap-8 text-sm `}>
+                <p>Home</p>
+                <p>Benifits</p>
+                <p>Our classes</p>
+                <p>Contact Us</p>
+              </div>
             </div>
             <div></div>
           </div>
