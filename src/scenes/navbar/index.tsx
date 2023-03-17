@@ -15,7 +15,10 @@ const Navbar = (props: NavbarProps) => {
             <img src={Logo} alt="logo" />
 
             {/* RIGHT SIDE */}
-            <div className={`${flexBetween} w-full `}></div>
+            <div className={`${flexBetween} w-full `}>
+              <div className={`${flexBetween} gap-8 text-sm `}></div>
+            </div>
+            <div></div>
           </div>
         </div>
       </div>
