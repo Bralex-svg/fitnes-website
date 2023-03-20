@@ -22,6 +22,10 @@ const Navbar = (props: NavbarProps) => {
                 <p>Our classes</p>
                 <p>Contact Us</p>
               </div>
+              <div className={`${flexBetween} gap-8 `}>
+                <p>Sign In</p>
+                <button>Become a member</button>
+              </div>
             </div>
             <div></div>
           </div>
